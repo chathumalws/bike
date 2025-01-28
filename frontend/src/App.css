@@ -42,7 +42,7 @@ header, nav {
 .active {
     text-decoration: underline;
     text-underline-offset: 5px;
-    color: purple;
+    color: #FF3300;
 }
 
 .skeleton {

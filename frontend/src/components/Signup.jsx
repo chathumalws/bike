@@ -71,14 +71,14 @@ const Signup = () => {
       .catch((error) => console.log(error));
   };
   return (
-    <div className="max-w-md bg-white shadow w-full mx-auto flex items-center justify-center my-20">
-      <div className="mb-5">
+    <div className="max-w-md bg-black text-black shadow w-full mx-auto flex items-center justify-center my-20">
+      <div className="mb-5 ">
         <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
           <h3 className="font-bold text-lg">Please Create An Account!</h3>
           {/* name */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Name</span>
+              <span className="label-text text-white">Name</span>
             </label>
             <input
               type="name"
@@ -91,7 +91,7 @@ const Signup = () => {
           {/* email */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text text-white ">Email</span>
             </label>
             <input
               type="email"
@@ -104,7 +104,7 @@ const Signup = () => {
           {/* password */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Password</span>
+              <span className="label-text text-white">Password</span>
             </label>
             <input
               type="password"
@@ -113,7 +113,7 @@ const Signup = () => {
               {...register("password")}
             />
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover mt-2">
+              <a href="#" className="label-text-alt text-white link link-hover mt-2">
                 Forgot password?
               </a>
             </label>
@@ -126,29 +126,40 @@ const Signup = () => {
           <div className="form-control mt-6">
             <input
               type="submit"
-              className="btn bg-pink text-white"
+              className="btn bg-orange text-white"
               value="Sign up"
             />
           </div>
 
+          {/* close btn*/}
+          <Link to="/">
+          <div
+              htmlFor="my_modal_5"
+              className="btn btn-sm btn-circle bg-orange btn-ghost absolute right-2 top-2"
+              onClick={() => document.getElementById("my_modal_5").close()}
+            >
+              ✕
+            </div> 
+            </Link>
+
           <div className="text-center my-2">
             Have an account?
             <Link to="/login">
-              <button className="ml-2 underline">Login here</button>
+              <button className="ml-2 text-orange underline">Login here</button>
             </Link>
           </div>
         </form>
         <div className="text-center space-x-3">
           <button
             onClick={handleRegister}
-            className="btn btn-circle hover:bg-pink hover:text-white"
+            className="btn btn-circle hover:bg-white hover:text-white"
           >
             <FaGoogle />
           </button>
-          <button className="btn btn-circle hover:bg-pink hover:text-white">
+          <button className="btn btn-circle hover:bg-white hover:text-white">
             <FaFacebookF />
           </button>
-          <button className="btn btn-circle hover:bg-pink hover:text-white">
+          <button className="btn btn-circle hover:bg-white hover:text-white">
             <FaGithub />
           </button>
         </div>

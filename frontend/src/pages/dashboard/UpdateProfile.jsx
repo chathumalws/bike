@@ -40,7 +40,7 @@ const UpdateProfile = () => {
           {/* <input type="text" {...register("photoURL")} placeholder="photo url" className="input input-bordered" required /> */}
         </div>
         <div className="form-control mt-6">
-          <input type='submit' value={"Update"} className="btn bg-pink text-white"/>
+          <input type='submit' value={"Update"} className="btn bg-orange text-white"/>
         </div>
       </form>
     </div>

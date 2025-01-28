@@ -4,11 +4,10 @@ const Dashboard = () => {
   const userName = "User";
 
   const pieData = [
-    { label: 'Vanilla', value: 300, color: '#FF6384' },
-    { label: 'Chocolate', value: 250, color: '#36A2EB' },
-    { label: 'Strawberry', value: 100, color: '#FFCE56' },
-    { label: 'Mint', value: 150, color: '#4BC0C0' },
-    { label: 'Cookie Dough', value: 200, color: '#9966FF' }
+    { label: 'Scooter', value: 300, color: '#FF6384' },
+    { label: 'Bikes', value: 250, color: '#36A2EB' },
+    { label: 'Bicycle', value: 100, color: '#FFCE56' },
+    
   ];
 
   const total = pieData.reduce((acc, data) => acc + data.value, 0);
@@ -22,19 +21,19 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className='section-container bg-gradient-to-r from-[#e0bbd2] from-0% to-[#fcfcfc] to-100% py-8 px-4'>
+    <div className='section-container bg-black py-8 px-4'>
       <div className='container mx-auto'>
         {/* Greeting Section */}
         <div className='py-4'>
-          <h2 className='text-4xl font-bold'>Hi, {userName}!</h2>
+          <h2 className='text-4xl font-bold text-white'>Hi, {userName}!</h2>
         </div>
 
         {/* Main Content */}
-        <div className='flex flex-col md:flex-row gap-8'>
+        <div className='flex flex-col md:flex-row gap-8 '>
           {/* Pie Chart */}
           <div className='md:w-1/2'>
             <div className='py-4'>
-              <h3 className='text-2xl font-semibold'>Ice Cream Sales by Flavours</h3>
+              <h3 className='text-2xl font-semibold text-white'>vehical rent by catogary</h3>
               <svg viewBox="0 0 32 32" width="100%" height="100%">
                 {pieData.map((data, index) => {
                   const startAngle = (cumulativeValue / total) * 360;

@@ -82,12 +82,12 @@ const navigate = useNavigate()
 
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay "></label> 
-          <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+          <ul className="menu p-4 w-80 min-h-full bg-black text-white">
             {/* Sidebar content here */}
             <li>
             <Link to="/dashboard" className="flex justify-start mb-3">
               <img src="/logo.png" alt="" className="w-20" />
-              <span className="badge bg-pink text-white">admin</span>
+              <span className="badge bg-orange text-white">admin</span>
             </Link>
           </li>
             <hr />

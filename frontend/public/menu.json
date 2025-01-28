@@ -1,65 +1,65 @@
 [
     {
         "_id": "642c155b2c4774f05c36eea1",
-        "name": "Vanilla Ice Creams",
-        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
-        "image": "/images/recipes/img1.png",
+        "name": "Honda Dio-2018",
+        "recipe": "BGK-####",
+        "image": "images/photo/img1.png",
         "category": "popular",
-        "price": 200.00
+        "price": 2000.00
     },
     {
         "_id": "642c155b2c4774f05c36eea2",
-        "name": "Vanilla Ice Cones",
-        "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
-        "image": "/images/recipes/img2.png",
+        "name": "Honda Dio-2019 DX",
+        "recipe": "",
+        "image": "images/photo/img2.jpg",
+        "category": "popular",
+        "price": 2500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea3",
+        "name": "Honda navi-2017",
+        "recipe": "",
+        "image": "/images/photo/img3.jpg",
+        "category": "popular",
+        "price": 1500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea4",
+        "name": "Pulsar 150-2016",
+        "recipe": "",
+        "image": "/images/photo/img4.jpg",
+        "category": "popular",
+        "price": 2500.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a5",
+        "name": "Yamaha FZ-2017",
+        "recipe": "",
+        "image": "/images/photo/img5.jpg",
+        "category": "popular",
+        "price": 3000.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea6",
+        "name": "Bicycle",
+        "recipe": "",
+        "image": "/images/photo/img6.png",
         "category": "popular",
         "price": 500.00
     },
     {
-        "_id": "642c155b2c4774f05c36eea3",
-        "name": "Strawberry Ice Creams",
-        "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
-        "image": "/images/recipes/img3.png",
-        "category": "popular",
-        "price": 300.00
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea4",
-        "name": "Mint Ice Creams",
-        "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
-        "image": "/images/recipes/img4.png",
-        "category": "popular",
-        "price": 250.00
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7a5",
-        "name": "Chocolate milkshakes",
-        "recipe": "cream, milk, sugar",
-        "image": "/images/recipes/img5.png",
-        "category": "popular",
-        "price": 200.00
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea6",
-        "name": "Chocolate Ice bars",
-        "recipe": "cream, milk, sugar",
-        "image": "/images/recipes/img6.png",
-        "category": "popular",
-        "price": 600.00
-    },
-    {
         "_id": "642c155b2c4774f05c36eea7",
-        "name": "Mixberry Ice Creams",
-        "recipe": "cream,berry source, milk, sugar",
-        "image": "/images/recipes/img7.png",
+        "name": "Yamaha Ray ZR-2018",
+        "recipe": "",
+        "image": "/images/photo/img7.jpeg",
         "category": "popular",
-        "price": 800.00
+        "price": 2500.00
     },
     {
         "_id": "642c155b2c4774f05c36eea8",
-        "name": "Choco cookies rolls",
-        "recipe": "cream,chocolate cookies, milk, sugar",
-        "image": "/images/recipes/img8.png",
+        "name": "Honda Dio-2018",
+        "recipe": "",
+        "image": "/images/photo/img8.jpg",
         "category": "popular",
         "price": 600.00
     },
@@ -67,7 +67,7 @@
         "_id": "642c155b2c4774f05c36eea9",
         "name": "Vanilla Ice rolls",
         "recipe": "cream,banana, milk, sugar",
-        "image": "/images/recipes/img9.png",
+        "image": "/images/photo/img9.png",
         "category": "popular",
         "price": 500.00
     },
@@ -75,23 +75,23 @@
         "_id": "642c155b2c4774f05c36eeb1",
         "name": "Vanilla Ice cream",
         "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
-        "image": "/images/recipes/img1.png",
+        "image": "/images/photo/img1.png",
         "category": "cups",
         "price": 200.00
     },
     {
         "_id": "642c155b2c4774f05c36eeb2",
-        "name": "Chocolate Ice cream",
+        "name": "Honda Dio-2018",
         "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
-        "image": "/images/recipes/img1.png",
-        "category": "cups",
+        "image": "/images/photo/img1.png",
+        "category": "scooters",
         "price": 300.00
     },
     {
         "_id": "642c155b2c4774f05c36eeb3",
         "name": "Strawberry Ice cream",
         "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
-        "image": "/images/recipes/img3.png",
+        "image": "/images/photo/img3.png",
         "category": "cups",
         "price": 300
     },
@@ -99,7 +99,7 @@
         "_id": "642c155b2c4774f05c36eeb4",
         "name": "Mint Ice cream",
         "recipe": "Peppermint Extract, Cream, whole milk, sugar, and vanilla.",
-        "image": "/images/recipes/img4.png",
+        "image": "/images/photo/img4.png",
         "category": "cups",
         "price": 250.00
     },
@@ -107,7 +107,7 @@
         "_id": "642c155b2c4774f05c36ee7b5",
         "name": "Cookies mix Ice cream",
         "recipe": "cream, milk, sugar",
-        "image": "/images/recipes/img1.png",
+        "image": "/images/photo/img1.png",
         "category": "cups",
         "price": 300.00
     },
@@ -115,7 +115,7 @@
         "_id": "642c155b2c4774f05c36eeb6",
         "name": "Mix Ice cream",
         "recipe": "cream, milk, sugar",
-        "image": "/images/recipes/img1.png",
+        "image": "/images/photo/img1.png",
         "category": "cups",
         "price": 250.00
     },
@@ -123,7 +123,7 @@
         "_id": "642c155b2c4774f05c36eb7",
         "name": "Mixberry Ice cream",
         "recipe": "cream,berry source, milk, sugar",
-        "image": "/images/recipes/img7.png",
+        "image": "/images/photo/img7.png",
         "category": "cups",
         "price": 350.00
     },
@@ -131,7 +131,7 @@
         "_id": "642c155b2c4774f05c36eeb8",
         "name": "Banana Ice cream",
         "recipe": "cream,banana, milk, sugar",
-        "image": "/images/recipes/img1.png",
+        "image": "/images/photo/img1.png",
         "category": "cups",
         "price": 200.00
     },
@@ -139,7 +139,7 @@
         "_id": "642c155b2c4774f05c36eeb9",
         "name": "Vanilla Ice roll",
         "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
-        "image": "/images/recipes/img9.png",
+        "image": "/images/photo/img9.png",
         "category": "rolls",
         "price": 400.00
     },
@@ -147,7 +147,7 @@
         "_id": "642c155b2c4774f05c36eec1",
         "name": "Chocolate Ice roll",
         "recipe": "blending cocoa powder, and the eggs, cream, vanilla, and sugar",
-        "image": "/images/recipes/img9.png",
+        "image": "/images/photo/img9.png",
         "category": "rolls",
         "price": 500.00
     },
@@ -155,7 +155,7 @@
         "_id": "642c155b2c4774f05c36eec2",
         "name": "Strawberry Ice roll",
         "recipe": "fresh strawberries and strawberry flavoring with the eggs, cream, vanilla, and sugar",
-        "image": "/images/recipes/img9.png",
+        "image": "/images/photo/img9.png",
         "category": "rolls",
         "price": 500.00
     },
@@ -208,12 +208,12 @@
         "price": 500.00
     },
     {
-        "_id": "642c155b2c4774f05c36eec9",
-        "name": "Vanilla milkshake",
-        "recipe": "Pure vanilla extract, milk, heavy whipping cream, and sugar",
-        "image": "/images/recipes/img5.png",
-        "category": "milkshakes",
-        "price": 100.00
+        "_id": "642c155b2c4774f05c36ee7a5",
+        "name": "Yamaha FZ-2017",
+        "recipe": "",
+        "image": "/images/photo/img5.jpg",
+        "category": "popular",
+        "price": 3000.00
     },
     {
         "_id": "642c155b2c4774f05c36eed1",

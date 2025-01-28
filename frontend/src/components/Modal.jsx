@@ -72,7 +72,7 @@ const Modal = () => {
 
   return (
     <dialog id="my_modal_5" className="modal modal-middle sm:modal-middle">
-      <div className="modal-box">
+      <div className="modal-box ">
         <div className="modal-action flex-col justify-center mt-0">
           <form
             className="card-body"
@@ -114,7 +114,7 @@ const Modal = () => {
 
             {/* show errors */}
             {errorMessage ? (
-              <p className="text-red text-xs italic">
+              <p className="text-orange text-xs italic">
                 Provide a correct username & password.
               </p>
             ) : (
@@ -125,7 +125,7 @@ const Modal = () => {
             <div className="form-control mt-4">
               <input
                 type="submit"
-                className="btn bg-pink text-white"
+                className="btn bg-orange text-white"
                 value="Login"
               />
             </div>

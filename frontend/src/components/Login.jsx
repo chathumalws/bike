@@ -73,19 +73,19 @@ const Login = () => {
       .catch((error) => console.log(error));
   };
   return (
-    <div className="max-w-md bg-white shadow w-full mx-auto flex items-center justify-center my-20">
+    <div className="max-w-md bg-black shadow w-full mx-auto flex items-center justify-center my-20">
     <div className="mb-5">
     <form
             className="card-body"
             method="dialog"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <h3 className="font-bold text-lg">Please Login!</h3>
+            <h3 className="font-bold text-white text-lg">Please Login!</h3>
 
             {/* email */}
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text text-white">Email</span>
               </label>
               <input
                 type="email"
@@ -98,7 +98,7 @@ const Login = () => {
             {/* password */}
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Password</span>
+                <span className="label-text text-white">Password</span>
               </label>
               <input
                 type="password"
@@ -107,7 +107,7 @@ const Login = () => {
                 {...register("password", { required: true })}
               />
               <label className="label">
-                <a href="#" className="label-text-alt link link-hover mt-2">
+                <a href="#" className="label-text-alt link link-hover mt-2 text-white">
                   Forgot password?
                 </a>
               </label>
@@ -115,7 +115,7 @@ const Login = () => {
 
             {/* show errors */}
             {errorMessage ? (
-              <p className="text-red text-xs italic">
+              <p className="text-orange text-xs italic">
                 Provide a correct username & password.
               </p>
             ) : (
@@ -126,7 +126,7 @@ const Login = () => {
             <div className="form-control mt-4">
               <input
                 type="submit"
-                className="btn bg-pink text-white"
+                className="btn bg-orange text-white"
                 value="Login"
               />
             </div>
@@ -134,20 +134,20 @@ const Login = () => {
             {/* close btn */}
             <Link to="/">
             <div
-              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 bg-pink"
+              className="btn btn-sm btn-circle bg-orange btn-ghost absolute right-2 top-2 bg-pink"
             >
               ✕
             </div></Link>
 
-            <p className="text-center my-2">
+            <p className="text-center my-2 text-white">
               Donot have an account?
-              <Link to="/signup" className="underline text-red ml-1">
+              <Link to="/signup" className="underline text-orange ml-1">
                 Signup Now
               </Link>
             </p>
           </form>
     <div className="text-center space-x-3">
-        <button onClick={handleRegister} className="btn btn-circle hover:bg-pink hover:text-white">
+        <button onClick={handleRegister} className="btn btn-circle hover:bg-black hover:text-white">
           <FaGoogle />
         </button>
         <button className="btn btn-circle hover:bg-pink hover:text-white">

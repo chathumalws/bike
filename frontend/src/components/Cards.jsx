@@ -18,7 +18,7 @@ const Cards = ({ item }) => {
   const handleHeartClick = () => {
     setIsHeartFilled(!isHeartFilled);
   };
-
+  //add to cart btn
   const handleAddToCart = item => {
     if (user && user.email) {
       const cartItem = { menuItemId: _id, name, quantity: 1, image, price, email: user.email };
@@ -76,7 +76,7 @@ const Cards = ({ item }) => {
       </div>
       <Link to={`/menu/${item._id}`}>
         <figure>
-          <img src={item.image} alt="Shoes" className="hover:scale-105 transition-all duration-300 md:h-72 mask mask-circle" />
+          <img src={item.image} alt="Shoes" className="hover:scale-105 transition-all duration-300 md:h-72 mask " />
         </figure>
       </Link>
       <div className="card-body">

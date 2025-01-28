@@ -32,19 +32,19 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a href="/" className="text-orange">
+        <a href="/" className= "text-white">
           Home
         </a>
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Menu</summary>
+          <summary className="text-white">Menu</summary>
           <ul className="p-2">
             <li>
               <a href="/menu">All</a>
             </li>
             <li>
-              <a>Bikes</a>
+              <a >Bikes</a>
             </li>
             <li>
               <a>Scoters</a>
@@ -54,10 +54,10 @@ const Navbar = () => {
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Services</summary>
+          <summary className="text-white">Services</summary>
           <ul className="p-2">
             <li>
-              <a>Offline Order</a>
+              <a >Offline Order</a>
             </li>
             <li>
               <a>Vehical Booking</a>
@@ -69,7 +69,7 @@ const Navbar = () => {
         </details>
       </li>
       <li>
-        <a>Offers</a>
+        <a className="text-white">Offers</a>
       </li>
     </>
   );
@@ -139,7 +139,7 @@ const Navbar = () => {
           <Link to="/cart-page">
             <label
               tabIndex={0}
-              className="btn btn-ghost btn-circle lg:flex items-center justify-center mr-3"
+              className="btn bg-white btn-ghost btn-circle lg:flex items-center justify-center mr-3"
             >
               <div className="indicator">
                 <svg

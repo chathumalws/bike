@@ -89,11 +89,9 @@ const UpdateMenu = () => {
                 <option disabled value="default">
                   Select a category
                 </option>
-                <option value="cups">Cups</option>
-                <option value="rolls">Rolls</option>
-                <option value="milkshakes">Milkshakes</option>
-                <option value="bars">Bars</option>
-                <option value="cones">Cones</option>
+                <option value="bikes">Bikes</option>
+                <option value="scooters">Scooters</option>
+                <option value="bicycles">Bicycles</option>              
                 <option value="popular">Popular</option>
               </select>
             </div>
@@ -116,7 +114,7 @@ const UpdateMenu = () => {
           {/* 3rd row */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Ice Cream ecipe Details</span>
+              <span className="label-text">Vehical category Details</span>
             </label>
             <textarea
              defaultValue={item.recipe}
@@ -135,7 +133,7 @@ const UpdateMenu = () => {
             />
           </div>
 
-          <button className="btn bg-pink text-white px-6">
+          <button className="btn bg-orange text-white px-6">
             Update Item <FaUtensils />
           </button>
         </form>

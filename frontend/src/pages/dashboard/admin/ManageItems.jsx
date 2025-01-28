@@ -38,7 +38,7 @@ const ManageItems = () => {
   return (
     <div className="w-full md:w-[870px] px-4 mx-auto">
       <h2 className="text-2xl font-semibold my-4">
-        Manage All <span className="text-pink">Ice Cream Items</span>
+        Manage All <span className="text-pink">Vehicals</span>
       </h2>
       {/* menu item table */}
       <div>
@@ -72,7 +72,7 @@ const ManageItems = () => {
                   <td>Rs.{item.price}</td>
                   <td>
                     <Link to={`/dashboard/update-menu/${item._id}`}>
-                      <button className="btn btn-ghost btn-xs bg-pink text-white">
+                      <button className="btn btn-ghost btn-xs bg-orange text-white">
                         <FaEdit />
                       </button>
                     </Link>

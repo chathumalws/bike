@@ -14,7 +14,8 @@ export default {
           "prigmayBG" : "#0D0300",
           "orange"  : "#FF3300",
           "black" : "#0D0300",
-          "white" : "#FFF5F2"
+          "white" : "#FFF5F2",
+          "blue"  : "#1434A4"
         }
 
 

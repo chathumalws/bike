@@ -81,18 +81,19 @@ const Menu = () => {
     return (
         <div>
             {/* Menu banner */}
-            <div className='section-container bg-gradient-to-r from-[#0D0300] from-0% to-[#0D0300] to-100%'>
+            <div className='section-container bg-black'>
                 <div className='py-48 flex flex-col justify-center items-center gap-8'>
                     {/* Text */}
                     <div className='text-center space-y-7 px-4'>
-                        <h2 className='md:text-5xl text-4xl font-bold md:leading-snug leading-snug'>
-                            For the love of delicious 
-                            <span className='text-pink'> ICE CREAM</span>
+                        <h2 className='md:text-5xl text-4xl font-bold md:leading-snug text-white leading-snug'>
+                        Find Your Best
+                        Dream Bike for Rent 
+                            <span className='text-orange'> ChamaBikes</span>
                         </h2>
-                        <p className='text-xl text-[#4a4a4a] md:w-4/5 mx-auto'>
-                            Come with family and experience the joy of our mouthwatering ice cream flavors such as classic vanilla, rich chocolate, refreshing mint, fruity sorbet, and more, all at an affordable price.
+                        <p className='text-xl text-white md:w-4/5 mx-auto'>
+                        Start by browsing our bike fleet on our website. Choose the bike that suits your adventure style and preferences.
                         </p>
-                        <button className='btn bg-pink px-8 py-3 font-semibold text-white rounded-full'>Order Now</button>
+                        <button className='btn bg-orange px-8 py-3 font-semibold text-white rounded-full'>Book Now</button>
                     </div>
                 </div>
 
@@ -101,21 +102,20 @@ const Menu = () => {
                     {/* Filtering and sorting */}
                     <div className='flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8'>
                         {/* All category buttons */}
-                        <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap'>
+                        <div className='flex flex-row justify-start md:items-center md:gap-8 gap-4 flex-wrap text-white'>
                             <button onClick={showAll} className={selectedCategory === "all" ? "active" : ""}>All</button>
-                            <button onClick={() => filterItems("cups")} className={selectedCategory === "cups" ? "active" : ""}>Cups</button>
-                            <button onClick={() => filterItems("rolls")} className={selectedCategory === "rolls" ? "active" : ""}>Rolls</button>
-                            <button onClick={() => filterItems("milkshakes")} className={selectedCategory === "milkshakes" ? "active" : ""}>MilkShakes</button>
-                            <button onClick={() => filterItems("bars")} className={selectedCategory === "bars" ? "active" : ""}>Bars</button>
-                            <button onClick={() => filterItems("cones")} className={selectedCategory === "cones" ? "active" : ""}>Cones</button>
+                            <button onClick={() => filterItems("bikes")} className={selectedCategory === "bikes" ? "active" : ""}>Bikes</button>
+                            <button onClick={() => filterItems("scooters")} className={selectedCategory === "scooters" ? "active" : ""}>Scooters</button>
+                            <button onClick={() => filterItems("bicycles")} className={selectedCategory === "bicycles" ? "active" : ""}>Bicycles</button>
+                            
                         </div>
 
                         {/* Sorting options */}
                         <div className='flex justify-end mb-4 rounded-sm'>
-                            <div className='bg-pink p-2'>
+                            <div className='bg-orange p-2'>
                                 <FaFilter className='h-4 w-4 text-white'/>
                             </div>
-                            <select name="sort" id="sort" onChange={(e) => handleSortChange(e.target.value)} value={sortOption} className='bg-pink text-white px-2 py-1 rounded-sm'>
+                            <select name="sort" id="sort" onChange={(e) => handleSortChange(e.target.value)} value={sortOption} className='bg-orange text-white px-2 py-1 rounded-sm'>
                                 <option value="default">Default</option>
                                 <option value="A-Z">A-Z</option>
                                 <option value="Z-A">Z-A</option>
@@ -140,7 +140,7 @@ const Menu = () => {
                             <button
                                 key={index + 1}
                                 onClick={() => paginate(index + 1)}
-                                className={`mx-1 px-3 py-1 rounded-full ${currentPage === index + 1 ? "bg-pink text-white" : "bg-gray-200"}`}
+                                className={`mx-1 px-3 py-1 rounded-full ${currentPage === index + 1 ? "bg-orange text-white" : "bg-gray-200"}`}
                             >
                                 {index + 1}
                             </button>
