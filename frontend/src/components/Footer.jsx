@@ -3,11 +3,15 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer className="footer xl:px-24 py-10 px-4 text-base-content" style={{ backgroundColor: '#0D0300' }}>
+      <footer className="bg-black footer xl:px-24 py-10 px-4 text-base-content text-white" >
         <aside>
-          <img src='/logo.png' alt='ICELOVE Logo' />
+          <img 
+          src='/logo.png' 
+          alt='ChamaBikes Logo'
+          style={{ width: '200px', height: 'auto' }} 
+          />
           <p className='my-5 md:w-40'>
-            Indulge in the sweetest treats and savor the joy in every scoop at ICELOVE.
+          Affordable bike rentals in Sri Lanka. Secure your ride today with our transparent pricing..
           </p>
         </aside> 
         <nav>
@@ -26,7 +30,7 @@ const Footer = () => {
         </nav> 
         <nav>
           <h6 className="footer-title">Contact Us</h6> 
-          <a className="link link-hover">info@icelove.com</a>
+          <a className="link link-hover">info@chamabikes.com</a>
           <a className="link link-hover">+123 456 7890</a>
           <a className="link link-hover">Follow Us</a>
         </nav>
@@ -34,9 +38,9 @@ const Footer = () => {
 
       <hr />
 
-      <footer className="footer items-center xl:px-24 py-10 px-4 bg-base-200 ">
-        <aside className="items-center grid-flow-col"> 
-          <p>Copyright © 2024 - All rights reserved by ICELOVE</p>
+      <footer className="footer items-center xl:px-24 py-10 px-4 bg-black  ">
+        <aside className="items-center grid-flow-col text-white"> 
+          <p>Copyright © 2024 - All rights reserved by ChamaBikes</p>
         </aside> 
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

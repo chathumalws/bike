@@ -13,7 +13,7 @@ header, nav {
 }
 
 .subtitle {
-  @apply text-pink uppercase tracking-wide font-semibold text-lg;
+  @apply text-white uppercase tracking-wide font-semibold text-lg;
 }
 
 .title {

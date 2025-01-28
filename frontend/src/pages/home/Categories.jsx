@@ -1,28 +1,28 @@
 import React from 'react'
 
 const categoryItems = [
-  {id: 1 , title:"Cups", des: "(28 Items)", image: "/images/home/category/img1.png"},
-  {id: 2 , title:"Bars", des: "(13 flavors)", image: "/images/home/category/img2.png"},
-  {id: 3 , title:"Cones", des: "(8 flavours)", image: "/images/home/category/img3.png"},
-  {id: 4 , title:"Browse All", des: "(49 Items)", image: "/images/home/category/img4.png"},
+  {id: 1 , title:"Bikes", des: "(28 Available)", image: "/images/home/category/img1.png"},
+  {id: 2 , title:"Scooters", des: "(13 Available)", image: "/images/home/category/img2.png"},
+  {id: 3 , title:"Bikes", des: "(8 Available)", image: "/images/home/category/img3.png"},
+ 
 ]
 
 const Categories = () => {
   return (
-    <div className='max-w-screen-2xl container mx-auto xl:px-24 px-4 py-16'>
-      <div className='text-center'>
-         <p className='subtitle'>Meet your favorite flavor</p>
-         <h2 className='title'>Popular Catagories</h2>
+    <div className='max-w-screen-2xl container mx-auto xl:px-24 px-4 py-16 bg-black text-white'>
+      <div className='text-center '>
+         <p className='subtitle '>Select Your Favorite Vehicle</p>
+         <h2 className='title'>Main Catagories</h2>
       </div>
 
       {/*category cards */}
       <div className='flex flex-col sm:flex-row flex-wrap gap-8 justify-around items-center mt-12'>
         {
           categoryItems.map ((item, i) => (
-            <div key={i} className='shadow-lg rounded-md bg-white py-6 px-5 w-72 mx-auto text-center cursor-pointer 
+            <div key={i} className='shadow-lg rounded-md bg-white text-black py-6 px-5 w-72 mx-auto text-center cursor-pointer 
             hover:-translate-y-4 duration-300 transition-all'>
               <div className='flex w-full mx-auto items-center justify-center'>
-                <img src={item.image} alt="" className = 'bg-[#cf91b5] p-5 rounded-full w-28 h-28'/>
+                <img src={item.image} alt="" className ='w-40 h-40'/>
               </div>
               <div className= 'mt-5 space-y-1'>
                 <h5 className='font-semibold'>{item.title}</h5>

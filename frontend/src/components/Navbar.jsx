@@ -32,7 +32,7 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a href="/" className="text-pink">
+        <a href="/" className="text-orange">
           Home
         </a>
       </li>
@@ -81,7 +81,7 @@ const Navbar = () => {
       <div
         className={`navbar xl:px-24 ${
           isSticky
-            ? "shadow-md bg-base-100 transition-all duration-300 ease-in-out"
+            ? "shadow-md bg-black-100 transition-all duration-300 ease-in-out"
             : ""
         }`}
       >
@@ -105,7 +105,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-64 space-y-3"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black-100 rounded-box w-64 space-y-3"
             >
               {navItems}
             </ul>
@@ -172,7 +172,7 @@ const Navbar = () => {
           ) : (
             <button
               onClick={() => document.getElementById('my_modal_5').showModal()}
-              className="btn flex items-center gap-2 rounded-full px-6 bg-pink text-white"
+              className="btn flex items-center gap-2 rounded-full px-6 bg-orange text-white"
             >
               <FaRegUser /> Login
             </button>

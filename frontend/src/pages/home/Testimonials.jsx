@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa';
 
 const Testimonials = () => {
   return (
-    <div className='section-container'>
+    <div className='section-container  bg-black'>
       <div className='flex flex-col md:flex-row items-center justify-between gap-12'>
         <div className='md:w-1/2'>
           <img src='/images/home/testimonials/testimonials.png' alt='Testimonials' />
@@ -15,7 +15,7 @@ const Testimonials = () => {
             <h2 className='title'>What Our Customers Say About Us</h2>
   
             <blockquote className='my-5 text-secondary leading-[30px]'>
-              "ICELOVE has the best variety of flavors I've ever seen. The service was fantastic, and the ambiance was perfect for a family outing."
+              "ChamaBikes has the best variety of flavors I've ever seen. The service was fantastic, and the ambiance was perfect for a family outing."
             </blockquote>
             <blockquote className='my-5 text-secondary leading-[30px]'>
               "The mixberry ice cream was out of this world! I've never tasted anything like it. Highly recommend!"

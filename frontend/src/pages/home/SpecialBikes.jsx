@@ -11,7 +11,7 @@ const SimpleNextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "pink" }}
+      style={{ ...style, display: "block", background: "black" }}
       onClick={onClick}
     >
       NEXT
@@ -24,7 +24,7 @@ const SimplePrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "pink" }}
+      style={{ ...style, display: "block", background: "black" }}
       onClick={onClick}
     >
       BACK
@@ -32,7 +32,7 @@ const SimplePrevArrow = (props) => {
   );
 };
 
-const SpecialRoles = () => {
+const SpecialBikes = () => {
   const [recipes, setRecipes] = useState([]);
   const slider = React.useRef(null);
 
@@ -86,11 +86,11 @@ const SpecialRoles = () => {
   };
 
   return (
-    <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 my-20 relative">
+    <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 my-20 relative  bg-black text-white">
       <div className="text-left">
-        <p className="subtitle">Special Ice Cream Roles</p>
+        <p className="subtitle">Special Bikes</p>
         <h2 className="title md:w-[520px]">
-          Standout Flavors From Our IceLove
+          Popular Bikes From Our ChamaBikes
         </h2>
       </div>
 
@@ -104,7 +104,7 @@ const SpecialRoles = () => {
         </button>
         <button
           onClick={() => slider?.current?.slickNext()}
-          className="btn p-2 rounded-full ml-5 bg-pink"
+          className="btn p-2 rounded-full ml-5 bg-black"
         >
           <FaAngleRight className="w-8 h-8 p-1" />
         </button>
@@ -119,4 +119,4 @@ const SpecialRoles = () => {
   );
 };
 
-export default SpecialRoles;
+export default SpecialBikes;
